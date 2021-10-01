@@ -1,0 +1,25 @@
+:root {
+  --clr-primary: #502050;
+  --clr-primary-lt: #937B92;
+  --clr-secondary: #EE68A4;
+  --clr-helper: #F7F2F7;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Spartan', sans-serif;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--ff-primary);
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
